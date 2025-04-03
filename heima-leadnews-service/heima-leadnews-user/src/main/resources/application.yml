@@ -1,0 +1,13 @@
+server:
+  port: 8084
+
+#feign: # 开启连接池
+#  okhttp:
+#    enabled: true
+
+hm:
+  db:
+    database: leadnews_user
+  swagger:
+    title: "黑马头条"
+    package: "com.heima.user.controller"
